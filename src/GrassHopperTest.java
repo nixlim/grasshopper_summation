@@ -7,7 +7,7 @@ class GrassHopperTest {
 
   @Test
   @DisplayName("Should return 3 when give 2 as initial value")
-  public void returnsThreeforTwo () {
+  public void returnsThreeForTwo () {
     assertEquals (3,GrassHopper.summation (2));
   }
 
